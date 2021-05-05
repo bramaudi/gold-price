@@ -2,6 +2,8 @@
 
 Get latest gold price exchange from [harga-emas.org](https://harga-emas.org/).
 
+> Endpoint: [https://gold-price.vercel.app/api/index](https://gold-price.vercel.app/api/index)
+
 Response:
 
 ```json
