@@ -44,6 +44,9 @@ app = Sanic()
 @app.route('/')
 @app.route('/<path:path>')
 async def index(request, path=""):
-  return json(response)
+  return json(
+    response,
+    headers={"Access-Control-Allow-Origin": "*"}
+  )
 
 # app.run(host='0.0.0.0', port=8080)
